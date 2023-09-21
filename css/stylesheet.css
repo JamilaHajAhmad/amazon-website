@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 70px;
+    position: relative;
+    background-color: white;
+}
+header img {
+    height: 70px;
+    width: 120px;
+    margin-left: 70px;
+}
+header ul {
+    list-style: none;
+    margin-left: 950px;
+    margin-top: -50px;
+}
+header ul li {
+    float: left;
+    display: inline;
+    margin-left: 24px;
+}
+header ul li a {
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+}
+.header-btn {
+    color: white;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 3px;
+    margin-top: -10px;
+    display: inline-block;
+    background-color: orange;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+main {
+    background-image: url("../images/amazon-background.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 681px;
+    margin-bottom: 30vh;
+}
+.about {
+    width: 100%;
+    margin-bottom: 150vh;
+}
+.about-content {
+    width: 80%;
+}
+.about-item {
+    width: 30%;
+    float: left;
+    height: 240px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border: solid orange;
+    text-align: center;
+    margin-left: 90px;
+    padding: 25px 15px;
+}
+.about-item3 {
+    position: absolute;
+    left: 830px;
+    width: 25%;
+}
+.about-item-title {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.about-item-p1,.about-item-p2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.message {
+    position: absolute;
+    top: 1400px;
+    left: 80px;
+}
+.message h2 {
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.message p {
+    font-size: 30px;
+    margin-bottom: 100vh;
+}
+.sign-up {
+    width: 1190px;
+    height: 550px;
+    border: 1px solid gray;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-left: 80px;
+    padding: 12px 20px;
+    background-color: white;
+    margin-bottom: 30vh;
+}
+.sign-up input {
+    display: block;
+    width: 550px;
+    height: 40px;
+    margin-left: 20px;
+}
+.sign-up label {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.input2 {
+    position: absolute;
+    left: 680px;
+    top: 1748px;
+}
+.sign-up button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.sign-up textarea {
+    display: block;
+    width: 550px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
